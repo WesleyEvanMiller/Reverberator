@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using BackgroundTasks;
 using Foundation;
 using UIKit;
 
@@ -24,6 +24,10 @@ namespace Reverberator.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            BGTaskScheduler.Shared.Register("test",null,null);
+
+            Application thisapp = new Application();
 
             return base.FinishedLaunching(app, options);
         }
