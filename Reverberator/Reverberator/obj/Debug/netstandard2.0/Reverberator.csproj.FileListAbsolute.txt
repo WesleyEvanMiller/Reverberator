@@ -17,3 +17,7 @@ C:\Users\WesMi\Documents\Music Equipment\Reverberator\Reverberator\Reverberator\
 C:\Users\WesMi\Documents\Music Equipment\Reverberator\Reverberator\Reverberator\obj\Debug\netstandard2.0\docfx_project\_site\styles\docfx.css.g.cs
 C:\Users\WesMi\Documents\Music Equipment\Reverberator\Reverberator\Reverberator\obj\Debug\netstandard2.0\docfx_project\_site\styles\docfx.vendor.css.g.cs
 C:\Users\WesMi\Documents\Music Equipment\Reverberator\Reverberator\Reverberator\obj\Debug\netstandard2.0\docfx_project\_site\styles\main.css.g.cs
+C:\Users\WesMi\Documents\Music Equipment\Reverberator\Reverberator\Reverberator\obj\Debug\netstandard2.0\docfx_project\templates\darkfx\styles\main.css.g.cs
+C:\Users\WesMi\Documents\Music Equipment\Reverberator\Reverberator\Reverberator\obj\Debug\netstandard2.0\docfx_project\templates\discordfx\styles\colors.css.g.cs
+C:\Users\WesMi\Documents\Music Equipment\Reverberator\Reverberator\Reverberator\obj\Debug\netstandard2.0\docfx_project\templates\discordfx\styles\discord.css.g.cs
+C:\Users\WesMi\Documents\Music Equipment\Reverberator\Reverberator\Reverberator\obj\Debug\netstandard2.0\docfx_project\templates\discordfx\styles\main.css.g.cs
