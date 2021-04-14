@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eIAiSZlhR6+lQWQNzr0EYgIj1wyoJH5vPRMG2vJe7SY4/znJsj4fUoKblTAZthdbrKsgeb8mO2DrohCTM2bSSw==",
+  "dgSpecHash": "/lG52ShwEuh4p7UAFL8lrItYCmUpdksY/Fb773sbl0qbLxgeZjz7heSe8UM0A9RKZvclrtnZZLAZLg/sD8lhiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WesMi\\Documents\\Music Equipment\\Reverberator\\Reverberator\\Reverberator.Android\\Reverberator.Android.csproj",
+  "projectFilePath": "C:\\Users\\conno\\OneDrive\\Documents\\GitProjects\\Reverberator\\Reverberator\\Reverberator.Android\\Reverberator.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\WesMi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\conno\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",

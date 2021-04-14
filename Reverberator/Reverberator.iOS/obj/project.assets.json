@@ -991,24 +991,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WesMi\\.nuget\\packages\\": {},
+    "C:\\Users\\conno\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WesMi\\Documents\\Music Equipment\\Reverberator\\Reverberator\\Reverberator.iOS\\Reverberator.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\conno\\OneDrive\\Documents\\GitProjects\\Reverberator\\Reverberator\\Reverberator.iOS\\Reverberator.iOS.csproj",
       "projectName": "Reverberator.iOS",
-      "projectPath": "C:\\Users\\WesMi\\Documents\\Music Equipment\\Reverberator\\Reverberator\\Reverberator.iOS\\Reverberator.iOS.csproj",
-      "packagesPath": "C:\\Users\\WesMi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WesMi\\Documents\\Music Equipment\\Reverberator\\Reverberator\\Reverberator.iOS\\obj\\",
+      "projectPath": "C:\\Users\\conno\\OneDrive\\Documents\\GitProjects\\Reverberator\\Reverberator\\Reverberator.iOS\\Reverberator.iOS.csproj",
+      "packagesPath": "C:\\Users\\conno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\conno\\OneDrive\\Documents\\GitProjects\\Reverberator\\Reverberator\\Reverberator.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\WesMi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\conno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1022,8 +1025,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\WesMi\\Documents\\Music Equipment\\Reverberator\\Reverberator\\Reverberator\\Reverberator.csproj": {
-              "projectPath": "C:\\Users\\WesMi\\Documents\\Music Equipment\\Reverberator\\Reverberator\\Reverberator\\Reverberator.csproj"
+            "C:\\Users\\conno\\OneDrive\\Documents\\GitProjects\\Reverberator\\Reverberator\\Reverberator\\Reverberator.csproj": {
+              "projectPath": "C:\\Users\\conno\\OneDrive\\Documents\\GitProjects\\Reverberator\\Reverberator\\Reverberator\\Reverberator.csproj"
             }
           }
         }
