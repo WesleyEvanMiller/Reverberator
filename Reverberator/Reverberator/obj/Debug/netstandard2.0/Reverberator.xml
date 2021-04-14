@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Reverberator</name>
+    </assembly>
+    <members>
+        <member name="T:Reverberator.MainPage">
+            <summary>
+            Main Page Class
+            </summary>
+        </member>
+        <member name="M:Reverberator.MainPage.#ctor">
+            <summary>
+            This is the entry point for the application
+            </summary>
+        </member>
+    </members>
+</doc>
