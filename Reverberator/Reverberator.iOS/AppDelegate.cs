@@ -30,9 +30,9 @@ namespace Reverberator.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
-            BGTaskScheduler.Shared.Register(AlertTaskId, null, task => HandleAppAlert(task as BGAppRefreshTask));
-
             Application thisapp = new Application();
+
+			BGTaskScheduler.Shared.Register(AlertTaskId, null, task => HandleAppAlert(task as BGAppRefreshTask));
 
 			if (UIDevice.CurrentDevice.CheckSystemVersion(8, 0))
 			{
@@ -90,7 +90,7 @@ namespace Reverberator.iOS
 
 			var request = new BGAppRefreshTaskRequest(AlertTaskId)
 			{
-				EarliestBeginDate = (NSDate)DateTime.Now.AddMinutes(1) // Fetch no earlier than 15 minutes from now
+				EarliestBeginDate = (NSDate)DateTime.Now.AddMinutes(1) // Fetch no earlier than 1 minutes from now
 			};
 
 			BGTaskScheduler.Shared.Submit(request, out NSError error);
@@ -120,23 +120,25 @@ namespace Reverberator.iOS
 
 		private void SendAlert()
 		{
-			var notification = new UILocalNotification();
+			CoreFoundation.DispatchQueue.MainQueue.DispatchAsync(() => {
+				var notification = new UILocalNotification();
 
-			// set the fire date (the date time in which it will fire)
-			notification.FireDate = NSDate.FromTimeIntervalSinceNow(0);
+				// set the fire date (the date time in which it will fire)
+				notification.FireDate = NSDate.FromTimeIntervalSinceNow(0);
 
-			// configure the alert
-			notification.AlertAction = "Alert";
-			notification.AlertBody = "Hello from Reverberator";
+				// configure the alert
+				notification.AlertAction = "Alert";
+				notification.AlertBody = "Hello from Reverberator";
 
-			// modify the badge
-			//notification.ApplicationIconBadgeNumber = 1;
+				// modify the badge
+				//notification.ApplicationIconBadgeNumber = 1;
 
-			// set the sound to be the default sound
-			notification.SoundName = UILocalNotification.DefaultSoundName;
+				// set the sound to be the default sound
+				notification.SoundName = UILocalNotification.DefaultSoundName;
 
-			UIApplication.SharedApplication.ScheduleLocalNotification(notification);
-			NSNotificationCenter.DefaultCenter.RemoveObserver(AlertSuccessNotificationName);
+				UIApplication.SharedApplication.ScheduleLocalNotification(notification);
+				NSNotificationCenter.DefaultCenter.RemoveObserver(AlertSuccessNotificationName);
+			});
 		}
 
 		#endregion

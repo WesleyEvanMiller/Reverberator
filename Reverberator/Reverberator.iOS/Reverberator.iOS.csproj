@@ -62,6 +62,7 @@
     <MtouchArch>ARM64</MtouchArch>
     <CodesignKey>iPhone Developer</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -130,7 +131,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Reverberator\Reverberator.csproj">
-      <Project>{5EC54C73-ED14-401D-BDB1-25741EDAEDE7}</Project>
+      <Project>{2D72094B-EC93-46A8-ADBD-40635768DB78}</Project>
       <Name>Reverberator</Name>
     </ProjectReference>
   </ItemGroup>
