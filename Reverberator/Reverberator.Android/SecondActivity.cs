@@ -12,7 +12,7 @@ using System.Text;
 namespace Reverberator.Droid
 {
     [Activity(Label = "Activity1")]
-    public class ActivitySecond : Activity
+    public class SecondActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
         {
